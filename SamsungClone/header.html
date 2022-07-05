@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- bootstrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+
+<!-- swiperjs -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+<!-- tailwindcss -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Samsung</title>
+  <style>
+
+
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+  
+  
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+font-size: 24px;
+
+}
+.swiper-pagination-bullet{
+  width: 178px;
+  height: 2px;
+  background-color: gray;
+
+}
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: 37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* #Mega Menu Styles
+        –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .mega-menu {
+      display: none;
+      left: 0;
+      position: absolute;
+      text-align: left;
+      width: 100%;
+    }
+
+    /* #hoverable Class Styles
+        –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .hoverable {
+      position: static;
+    }
+
+    .hoverable>a:after {
+      content: "\25BC";
+      font-size: 10px;
+      padding-left: 6px;
+      position: relative;
+      top: -1px;
+    }
+
+    .hoverable:hover .mega-menu {
+      display: block;
+    }
+
+    /* #toggle Class Styles
+        –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* 
+    .toggleable>label:after {
+      content: "\25BC";
+      font-size: 10px;
+      padding-left: 6px;
+      position: relative;
+      top: -1px;
+    }
+
+    .toggle-input {
+      display: none;
+    }
+
+    .toggle-input:not(checked)~.mega-menu {
+      display: none;
+    }
+
+    .toggle-input:checked~.mega-menu {
+      display: block;
+    }
+
+    .toggle-input:checked+label {
+      color: white;
+      background: #2c5282;
+  
+    }
+
+    .toggle-input:checked~label:after {
+      content: "\25B2";
+      font-size: 10px;
+      padding-left: 6px;
+      position: relative;
+      top: -1px;
+    } */
+
+    .wrapper {
+      max-width: 1440px;
+      background-color: white;
+      height: 100vh;
+      margin: 0 auto;
+      padding: 0px;
+    }
+  </style>
+</head>
+
+<body class="bg-white font-sans leading-normal tracking-normal">
+  <div class="wrapper">
+    <!--------------------- navigation  -->
+
+    <nav class="relative flex">
+      <div class="container mx-auto flex justify-start ">
+        <div class="relative block p-4 lg:p-6 text-xl text-black-600 font-bold">
+          <img src="./Assets/logo.png" class="w-[106px] h-[25px] mt-[5px]" alt="">
+        </div>
+
+
+        <ul class="flex justify-start h-20 items-center">
+         
+          <li class="">
+            <a href="#"
+              class="relative  block py-[7px] px-2 ml-10  text-sm font-medium rounded-2xl hover:bg-black hover:text-white   ">Mobile</a>
+          </li>
+
+          <li class="">
+            <a href="#" class="relative block  py-[7px] px-2    text-sm font-medium  rounded-2xl hover:bg-black hover:text-white  ">TV & AV</a>
+          </li>
+
+          <li class="">
+            <a href="#" class="relative block   py-[7px] px-2   text-sm  font-medium rounded-2xl hover:bg-black hover:text-white  ">Home Appliances</a>
+          </li>
+
+          <li class="">
+            <a href="#" class="relative block   py-[7px] px-2   text-sm  font-medium rounded-2xl hover:bg-black hover:text-white  ">IT</a>
+          </li>
+          <li class="">
+            <a href="#" class="relative block   py-[7px] px-2   text-sm font-medium   rounded-2xl hover:bg-black hover:text-white ">Displays</a>
+          </li>
+          <li class="">
+            <a href="#" class="relative block   py-[7px] px-2   text-sm font-medium  rounded-2xl hover:bg-black hover:text-white   ">Shop</a>
+
+          </li>
+
+          </ul>
+      
+      </div>
+
+      <div class="flex  justify-between  h-20 items-center">
+            <ul class="flex justify-end h-20 items-center mr-[5px]">
+            <li class="">
+              <a href="#" class="relative block   py-[7px] px-2   text-sm font-medium  rounded-2xl hover:bg-black hover:text-white "">Explore</a>
+            </li>
+            <li class="">
+              <a href="#" class="relative block   py-[7px] px-2   text-sm font-medium   rounded-2xl hover:bg-black hover:text-white "">Support</a>
+            </li>
+            <li class="">
+              <a href="#" class="relative block   py-[7px] px-2   text-sm font-medium  rounded-2xl hover:bg-black hover:text-white ">Buisness</a>
+            </li>
+            </ul>
+
+
+            <ul class="flex justify-end h-20 items-center ml-9">
+            <li class="">
+              <a href="#" class="relative block   py-[7px] px-3   text-sm font-medium rounded-2xl hover:bg-black hover:text-white  "><i class="fa fa-search"style="font-size:21px;"></i></a>
+            </li>
+            <li class="">
+              <a href="#" class="relative block   py-[7px] px-3   text-sm font-medium  rounded-2xl hover:bg-black hover:text-white "><i class="fa fa-cart-plus"style="font-size:21px;"></i></a>
+            </li>
+            <li class="">
+              <a href="#" class="relative block   py-[7px] px-3  mr-4 text-sm font-medium rounded-2xl hover:bg-black hover:text-white "><i class="fa fa-user"style="font-size:21px;"></i></a>
+            </li>
+  
+           
+
+            </ul>
+    </div>
+   
+
+
+         
+
+
+          
+          <!-- <li class="hoverable hover:bg-blue-800 hover:text-white">
+            <a href="#"
+              class="relative block   py-[7px] px-2   text-sm ">icons</a>
+            <div class="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800">
+              <div class="container  w-full flex flex-wrap justify-between mx-2">
+                <div class="w-full text-white mb-8">
+                  <h2 class="font-bold text-2xl">
+                    Main Hero Message for the menu section
+                  </h2>
+                </div>
+                <ul
+                  class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-600 border-b sm:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3">
+                  <div class="flex items-center">
+                    <svg class="h-8 mb-3 mr-3 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z" />
+                    </svg>
+                    <h3 class="font-bold text-xl text-white text-bold mb-2">
+                      Heading 1
+                    </h3>
+                  </div>
+                  <p class="text-gray-100 text-sm">
+                    Quarterly sales are at an all-time low create spaces to
+                    explore the accountable talk and blind vampires.
+                  </p>
+                  <div class="flex items-center py-3">
+                    <svg class="h-6 pr-3 fill-current text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z" />
+                    </svg>
+                    <a href="#" class="text-white bold border-b-2 border-blue-300 hover:text-blue-300">Find out
+                      more...</a>
+                  </div>
+                </ul>
+                <ul
+                  class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-600 border-b sm:border-r-0 lg:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3">
+                  <div class="flex items-center">
+                    <svg class="h-8 mb-3 mr-3 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M4.13 12H4a2 2 0 1 0 1.8 1.11L7.86 10a2.03 2.03 0 0 0 .65-.07l1.55 1.55a2 2 0 1 0 3.72-.37L15.87 8H16a2 2 0 1 0-1.8-1.11L12.14 10a2.03 2.03 0 0 0-.65.07L9.93 8.52a2 2 0 1 0-3.72.37L4.13 12zM0 4c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4z" />
+                    </svg>
+                    <h3 class="font-bold text-xl text-white text-bold mb-2">
+                      Heading 2
+                    </h3>
+                  </div>
+                  <p class="text-gray-100 text-sm">
+                    Prioritize these line items game-plan draw a line in the
+                    sand come up with something buzzworthy UX upstream
+                    selling.
+                  </p>
+                  <div class="flex items-center py-3">
+                    <svg class="h-6 pr-3 fill-current text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z" />
+                    </svg>
+                    <a href="#" class="text-white bold border-b-2 border-blue-300 hover:text-blue-300">Find out
+                      more...</a>
+                  </div>
+                </ul>
+                <ul
+                  class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-600 border-b sm:border-b-0 sm:border-r md:border-b-0 pb-6 pt-6 lg:pt-3">
+                  <div class="flex items-center">
+                    <svg class="h-8 mb-3 mr-3 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M2 4v14h14v-6l2-2v10H0V2h10L8 4H2zm10.3-.3l4 4L8 16H4v-4l8.3-8.3zm1.4-1.4L16 0l4 4-2.3 2.3-4-4z" />
+                    </svg>
+                    <h3 class="font-bold text-xl text-white text-bold mb-2">
+                      Heading 3
+                    </h3>
+                  </div>
+                  <p class="text-gray-100 text-sm">
+                    This proposal is a win-win situation which will cause a
+                    stellar paradigm shift, let's touch base off-line before
+                    we fire the new ux experience.
+                  </p>
+                  <div class="flex items-center py-3">
+                    <svg class="h-6 pr-3 fill-current text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z" />
+                    </svg>
+                    <a href="#" class="text-white bold border-b-2 border-blue-300 hover:text-blue-300">Find out
+                      more...</a>
+                  </div>
+                </ul>
+                <ul class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-600 pb-6 pt-6 lg:pt-3">
+                  <div class="flex items-center">
+                    <svg class="h-8 mb-3 mr-3 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
+                    </svg>
+                    <h3 class="font-bold text-xl text-white text-bold mb-2">
+                      Heading 4
+                    </h3>
+                  </div>
+                  <p class="text-gray-100 text-sm">
+                    This is a no-brainer to wash your face, or we need to
+                    future-proof this high performance keywords granularity.
+                  </p>
+                  <div class="flex items-center py-3">
+                    <svg class="h-6 pr-3 fill-current text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z" />
+                    </svg>
+                    <a href="#" class="text-white bold border-b-2 border-blue-300 hover:text-blue-300">Find out
+                      more...</a>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+
+
+      </div> -->
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!------------------------------- curosel  -->
+
+    <div class="bg-white max-w-[1440px] h-[639px] pt-[56px] mb-[40px]" >
+      <!-- <div class="w-full pt-14">
+        <img class="w-full" src="./Assets/1.webp" />
+      </div> -->
+      <!-- Carousel wrapper -->
+      
+      <!-- <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+        
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Assets/1.webp" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/2.webp" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/3.webp" alt="New York" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/4.webp" alt="New York" class="d-block" style="width:100%">
+          </div>
+        </div>
+        
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon mr-40 mb-10"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon ml-40 mb-10"></span>
+        </button>
+      </div> -->
+
+      <div class="swiper w-[100%]" >
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./Assets/1.webp" class="w-[100%]" alt="">
+            <div class="carousel-galaxy-img1">
+              <h1 class="font-bold text-5xl text-[#ffffff] break-words absolute top-[26%] left-[6%]"> Unexpected joy <br>everywhere With The<br> Freestyle </h1>
+              <p class="text-lg text-[#ffffff] break-words absolute top-[55%] left-[6%] mt-[24px]">  Pre-order now & get Free*</p>
+              <a class="text-[14px] pt-[9px] px-[21px] pb-[9px] bg-[#ffffff] text-[#000] rounded-[25px] break-words font-bold absolute top-[65%] left-[6%]">Pre-Order</a>
+          </div>
+          </div>
+          <div class="swiper-slide"><img src="./Assets/2.webp" class="w-[100%]" alt="">
+            <div class="carousel-galaxy-img1">
+              <h1 class="font-bold text-5xl text-[#ffffff] break-words absolute top-[32%] left-[6%]"> Samsung Innovation <br>Campus </h1>
+              <p class="text-lg text-[#ffffff] break-words absolute top-[52%] left-[6%]">  AI Course</p>
+              <a class="text-[14px] pt-[9px] px-[21px] pb-[9px] bg-[#ffffff] text-[#000] rounded-[25px] break-words font-bold absolute top-[63%] left-[6%]">Learn More</a>
+          </div>
+          </div>
+          <div class="swiper-slide"><img src="./Assets/3.webp"  class="w-[100%]" alt=""></div>
+          <div class="swiper-slide"><img src="./Assets/4.webp" class="w-[100%]" alt="">
+            <div class="carousel-galaxy-img1">
+              <h1 class="font-bold text-5xl text-[#050505] break-words absolute top-[42%] right-[22%]"> Galaxy S22 Ultra</h1>
+             
+          </div>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev text-white text-sm top-[44%] "></div>
+        <div class="swiper-button-next text-white top-[44%] text-[24px]"></div>
+
+      </div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+      // Optional parameters
+    
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+      // And if we need scrollbar
+     
+    });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!--------Offers  -->
+   
+        <div class="pt-14 lg:h-28">
+          <h1 class="text-center font-bold text-[38px]">
+            This Month's Picks
+          </h1>
+     
+    </div>
+
+    <section id="showcase_mobiles" class="h-[58px] bg-white">
+      <div class="screensizes">
+        <div class="bg-white">
+          <ul
+            class="flex justify-center items-center text-lg m-[5px] h-[58px] text-#000 font-bold pt-1 pb-1">
+            <li class="mx-3 border-b-2 border-[#000] cursor-pointer">
+              <a href="#" class="">Mobile
+              </a>
+            </li>
+
+            <li class="mx-4   hover:text-gray-700 cursor-pointer " ><a href="#"> TV & AV </a></li>
+            <li class="mx-3  hover:text-gray-700 cursor-pointer" ><a href="#"> Home Appliances </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- grid container -->
+    <section class="pb-12">
+      <div
+        class="py-2 grid overflow-hidden md grid-cols-4 grid-rows-2 gap-3 grid-flow-row min-w-full h-[708px] rounded max-w-[1416px]">
+        <div
+          class="box row-start-1 row-span-2 col-span-2 h-[684px] w-[684px] mx-1 flex flex-col items-center justify-center rounded-3xl bg-[#f4f4f4]">
+          <img src="./Assets/galaxyNote.webp" class="h-[376px] w-[376px] mt-20" alt="" />
+          <span class="text-2xl max-w-[400px] h-[60px] font-bold pt-20">Galaxy S22 Ultra</span>
+          <span class="max-w-[298px] text-xs pt-10">Just Launched</span>
+        </div>
+
+        <div class="box h-[330px] w-[330px] flex flex-col items-center justify-center rounded-3xl bg-[#f4f4f4]">
+          <img src="./Assets/galaxyA13.webp" class="max-h-[160px] max-w-[160px]" alt="" />
+          <span class="text-lg max-w-[298px] h-[43px]">Galaxy A13</span>
+          <span class="max-w-[298px] text-xs">Just Launched</span>
+        </div>
+        <div class="box h-[330px] w-[330px] flex flex-col items-center justify-center rounded-3xl bg-[#f4f4f4]">
+          <img src="./Assets/galaxyA03.webp" class="max-h-[160px] max-w-[160px]" alt="" />
+          <span class="text-lg max-w-[298px] h-[43px]">Galaxy A03</span>
+          <span class="max-w-[298px] text-xs">Just Launched</span>
+        </div>
+        <div class="box h-[330px] w-[330px] flex flex-col items-center justify-center rounded-3xl bg-[#f4f4f4]">
+          <img src="./Assets/galaxyS22.webp" class="max-h-[160px] max-w-[160px]" alt="" />
+          <span class="text-lg max-w-[298px] h-[43px]">Galaxy S22</span>
+          <span class="max-w-[298px] text-xs">Just Launched</span>
+        </div>
+        <div class="box h-[330px] w-[330px] flex flex-col items-center justify-center rounded-3xl bg-[#f4f4f4]">
+          <img src="./Assets/zflip.webp" class="max-h-[160px] max-w-[160px]" alt="" />
+          <span class="text-lg max-w-[298px] h-[43px]">Galaxy Z Flip3 5G</span>
+          <span class="max-w-[298px] text-xs">A good thing just got better</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile Display Section -->
+
+    <section class="h-[205px] bg-white pt-[24px] px-[48px] max-w-[1440px]">
+      <h2 class="text-[38px] font-bold text-center mt-[48px]">Mobile</h2>
+      <div class="col-lg-12 col-md-12 col-sm-5">
+        <ul class="flex justify-center items-center text-lg h-[58px] text-#000  pt-1 pb-1">
+          <li class="mr-[38px] py-1 border-b-2 border-[#000] cursor-pointer">
+            <a href="#" class="">Galaxy S22 Ultra
+            </a>
+          </li>
+          <li class="mr-[38px] py-1  hover:text-gray-700 cursor-pointer"><a href="#"> Galaxy Z Flip3 5G </a></li>
+          <li class="mr-[38px] py-1  hover:text-gray-700 cursor-pointer"><a href="#"> Galaxy Watch4 </a></li>
+          <li class="mr-[38px] py-1  hover:text-gray-700 cursor-pointer"><a href="#"> Galaxy Buds2 </a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pb-[48px]">
+      <div class="h-[554px] max-w-[1440px] flex flex-col justify-between items-center">
+        <img src="./Assets/GalaxyS22Ultra.webp" alt="galaxy" class="max-h-[418px] max-w-[743px]" />
+        <h1 class="text-5xl mb-2 font-bold">Galaxy S22 Ultra</h1>
+      </div>
+      <div class="max-w-[1440px] flex justify-center">
+        <a href="#"
+          class="text-sm pt-[10px] px-6 pb-[11px] bg-black text-white hover:bg-[#6f6f6f] text-center items-center rounded-[20px]">Learn
+          More</a>
+      </div>
+    </section>
+
+    <!-- Tv SECTION --------------- -->
+    <section class="max-w-[1440px] bg-[url(./Assets/tvandsound.jpeg)] h-[905px] bg-slate-600 mt-12">
+      <!-- <img src="./Assets/refrigerators.webp" class="w-[100%]" alt=""> -->
+      <div class="max-w-[1440px] h-[90%]  flex justify-between items-center flex-col">
+        <div class="">
+          <h2 class="text-[38px] mt-12 text-center text-white font-bold">TV & Sound</h2>
+          <ul class="flex flex-row text-lg py-[4px]">
+            <li class="mr-12 text-white font-bold hover:border-b-2 hover:border-[#fff] cursor-pointer">Neo QLED</li>
+            <li class="mr-12 text-white font-bold hover:border-b-2 hover:border-[#fff] cursor-pointer">QLED</li>
+            <li class="mr-12 text-white font-bold hover:border-b-2 hover:border-[#fff] cursor-pointer">Crystal UHD</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col justify-center items-center pb-12 text-white font-bold">
+          <h2 class="text-5xl mb-2">Greatness never ends,but evolves</h2>
+          <a href="#"
+            class="text-sm pt-[10px] px-6 pb-[11px] bg-white text-black hover:bg-[#f0f0f0] text-center items-center rounded-[20px]">Learn
+            More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAchine Section --------------- -->
+    <section class="max-w-[1440px]  bg-[url(./Assets/refrigerators.webp)] h-[905px] bg-blue-300 my-12">
+      <div class="max-w-[1440px] h-[90%] flex justify-between items-center flex-col">
+        <div class="">
+          <h2 class="text-[38px] mt-12 text-center font-bold">Home Appliances</h2>
+          <ul class="flex flex-row text-lg py-[4px]">
+            <li class="ml-12 hover:border-b-2 hover:border-[#000] cursor-pointer">Washing Machine</li>
+            <li class="mx-12 hover:border-b-2 hover:border-[#000] cursor-pointer">Refrigerator</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col justify-center items-center pb-12">
+          <h2 class="text-5xl mb-2 font-bold">Endless Innovation</h2>
+
+          <div class="flex flex-row justify-center items-center flex-wrap ">
+          <a href="" class="py-[10px] underline mr-4 " >Learn More</a>
+          <a href="#"
+            class="text-sm pt-[10px] px-6 pb-[11px] bg-black text-white text-center hover:bg-[#6f6f6f] items-center rounded-[20px]">See all
+            Refrigerator</a>
+         </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Teaser -->
+
+    <section class="max-w-[1440px] max-h-[873px] ">
+
+
+          <!-- Explore -->
+    <div class="flex justify-center items-center text-[38px] font-bold mb-[50px]">
+      <h1 class="text center">Explore #DoWhatYouCant</h1>
+    </div>
+
+      <div class="flex justify-start w-full  ">
+    
+          <div class="rounded-2xl max-h-[684px] max-w-[684px] overflow-hidden my-0  ">
+            <img src="./Assets/teaserimg.png" class="overflow-hidden h-[684px]  " />
+          </div>
+
+          <div class="flex justify-start items-start flex-col flex-wrap mt-10 border-t-transparent  ">
+
+
+            <div class="flex border-t-2 border-transparent m-3 pt-3  w-full pl-[25px] hover:border-[#000]">
+              <span class="text-base mt-4 font-bold pb-[21px] pl-[21px]">01</span>
+              <h2 class="font-bold text-[22px] m-[10px] pl-[27px]  ">We Asked, You Answered, We Delivered</h2>
+              <!-- <div class="hide"><a href="#">learn More</a></div> -->
+            </div>
+            <div class="flex border-transparent m-3 pt-3 pl-[25px]  w-full border-t-2 hover:border-[#000] ">
+              <span class="text-base mt-4 font-bold pb-[21px]  pl-[21px] ">02</span>
+              <h2 class="font-bold text-[22px] m-[10px] pl-[27px]  ] ">Beyond the Limits</h2>
+            </div>
+            <div class="inline-flex border-transparent m-3 pt-3 pl-[25px]   w-full border-t-2 hover:border-[#000]">
+              <span class="text-base mt-4 font-bold pb-[21px] pl-[21px] ">03</span>
+              <h2 class="font-bold text-[22px] m-[10px] pl-[27px]  ] ">The Quicker Way to a Good Night's Rest</h2>
+            </div>
+            <div class="inline-flex border-transparent m-3 pt-3 pl-[25px]   w-full border-t-2 hover:border-[#000] ">
+              <span class="text-base mt-4 font-bold pb-[21px]  pl-[21px]">04</span>
+              <h2 class="font-bold text-[22px] m-[10px] pl-[27px]  ] ">Together for tomorrow at CES 2022</h2>
+            </div>
+            <div class="inline-flex border-transparent m-3 pt-3  pl-[25px]   w-full border-t-2 hover:border-[#000] ">
+              <span class="text-base mt-4 font-bold pb-[21px]  pl-[21px]">05</span>
+              <h2 class="font-bold text-[22px] m-[10px] pl-[27px]   ">Reimagine a Better Planet</h2>
+            </div>
+
+            
+          </div>
+      
+      </div>
+    </section>
+
+
+
+
+    <!-- Search  -->
+
+    <div class="max-w-[1440px] h-11 pt-12 mb-4">
+      <h2 class=" text-[38px] text-center mx-[18px] font-bold ">Looking for Something else?</h2>
+    </div>
+
+    <section class="m-12 text-center">
+      <div class="pt-2  relative mx-auto text-gray-600">
+        <input class=" mt-6 border-[1px] border-gray-700 bg-white h-12 w-[430px] px-5 pr-16 rounded-2xl text-lg focus:outline-none"
+          type="search" name="search" placeholder="Search Keyword">
+        <!-- <button type="submit" class="absolute left-[475px] top-0 mt-5 mr-4">
+          <svg class=" h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+            width="512px" height="512px">
+            <path
+              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+          </svg>
+        </button> -->
+      </div>
+
+
+
+
+      <div class="searchbuttons">
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd] border-[1px] ">Galaxy S21 Ultra 5G</button>
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd] border-[1px] ">Galaxy Note20</button>
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd]  border-[1px]">Galaxy S20</button>
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd]  border-[1px]">QLED 8k</button>
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd] border-[1px] ">QLED4k</button>
+    </div>
+
+    <div class="searchlowerbuttons">
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd] border-[1px]">Washing Machine</button>
+        <button class="text-black bg-white rounded-3xl py-2 px-4 text-xs mt-3 mr-2 cursor-pointer hover:bg-[#ddd] border-[1px]">One Door Refrigerator</button>
+    </div>
+    </section>
+
+
+
+
+<!-- Terms---------------- -->
+
+<section>
+  <div class="max-w-[1440px] h-[502px] pt-4 px-24 border-t-2 ">
+   
+    
+              <div class="text-xs  ">
+                  <p class="text-[12px] mb-4 pt-4">*Image simulated for illustrative purpose. </p>
+                  <p class="text-[12px] mb-4">**Color and model availability may vary depending on country or carrier.</p>
+                  <p class="text-[12px] mb-4">***Galaxy A53 5G is rated as IP67. Based on test conditions for submersion in up to 1 meter
+                      of fresh water for up to 30 minutes. Safe against low water pressure only.
+
+                  </p>
+                  <p class="text-[12px] mb-4">* Image simulated. Color availability may vary depending on country or carrier.</p>
+                  <p class="text-[12px] mb-4">*Image of Galaxy Z Fold3 5G, Galaxy Z Flip3 5G and S Pen Fold Edition simulated for
+                      illustration purposes.</p>
+                  <p class="text-[12px] mb-4">*The S pen Fold Edition sold separately and is only compatible with Galaxy Z Fold3 5G.</p>
+                  <p class="text-[12px] mb-4">*Image of two Galaxy Z Fold3 5G phones and S Pen Fold Edition simulated for illustration
+                      purposes.</p>
+                  <p class="text-[12px] mb-4">*Image simulated for illustration purposes.</p>
+                  <p class="text-[12px] mb-4">*Image of two Galaxy Z Fold2 phones unfolded and with the butterfly graphic wallpaper
+                      onscreen simulated for illustration purposes.</p>
+                  <p class="text-[12px] mb-4">*Image of two Galaxy Z Fold2 phones unfolded and with the butterfly graphic wallpaper
+                      onscreen simulated for illustration purposes.</p>
+                  <p class="text-[12px] mb-4">*Image of eleven Galaxy S20 FE phones standing upright in a circle simulated for illustration
+                      purposes.</p>
+                  <p class="text-[12px] mb-4">*Simulated picture. Color availability may vary depending on country or carrier. Galaxy A52
+                      is rated as IP67. Based on test conditions for submersion in up to 1 meter of freshwater for
+                      up to 30 minutes. Not advised for beach, pool use and soapy water. In case you spill liquids
+                      containing sugar on the phone, please rinse the device in clean, stagnant water while
+                      clicking keys. Safe against low water pressure only. High water pressure such as running tap
+                      water or shower may damage the device.</p>
+                  <p class="text-[12px] mb-4">*Simulated picture. Color availability may vary depending on country or carrier. Galaxy A72
+                      is rated as IP67. Based on test conditions for submersion in up to 1 meter of freshwater for
+                      up to 30 minutes. Not advised for beach, pool use and soapy water. In case you spill liquids
+                      containing sugar on the phone, please rinse the device in clean, stagnant water while
+                      clicking keys. Safe against low water pressure only. High water pressure such as running tap
+                      water or shower may damage the device.</p>
+              </div>
+
+  </div>
+
+
+</section>
+
+
+
+
+<!-- footer -->
+
+
+<section class="">
+
+      <!-- Grid row -->
+      <div class="flex flex-row justify-start border-t-2 max-w-[1550px]  border-b-2 ">
+          <!-- Grid column -->
+          <div class=" border-r-2 w-[25%]  ">
+              <!-- Content -->
+              <h3 class=" text-lg font-bold py-4 px-6 max-w-[359px] max-h-[56px]">
+                 Product & Services
+              </h3>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="text-reset hover:text-blue-800" >Smartphones</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Tablets</a>
+              </p >
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Audio Sound</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Watches</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">SmartSwitch</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">TVs</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Refrigerator</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Laundry</a>
+
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Air Solution</a>
+
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Monitors</a>
+
+              </p>
+          
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="border-r-2 w-[25%] pb-8 ">
+              <!-- Links -->
+              <h3 class=" text-lg font-bold py-4 px-6 max-w-[359px] max-h-[56px]">
+                 Shop
+              </h3>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Offer</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Samsung Members</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Store Locator</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Samsung Experience Store</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Online Shop FAQs</a>
+              </p>
+
+
+          </div>
+      
+          <div class="border-r-2 w-[25%] pb-8">
+              <!-- Links -->
+              <h3 class=" text-lg font-bold py-4 px-6 max-w-[359px] max-h-[56px]">
+                  Support
+              </h3>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Contacts Us </a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Phone Support</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Email Support</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Contact the President(CEO)</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Community</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">WhatsApp Us</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Give Feedback</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Sign Language Support</a>
+              </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="flex flex-col justify-between pb-8  ">
+              <!-- Links -->
+              <h3 class=" text-lg font-bold py-4 px-6 max-w-[359px] max-h-[56px]">
+                  Sustainability
+              </h3>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Overview</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Enivronment</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Corporate Citizenship</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Digital Responsibility</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Labor & Human Rights</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Diversity & Inclusion</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Sustaianable Supply Chain </a>
+              </p>
+
+
+
+              <h3 class=" text-lg font-bold py-4 px-6 max-w-[359px] max-h-[56px]">
+                  About Us
+              </h3>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Company Info</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Buisness Area</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Brand Identity</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Careers</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Investor Relations</a>
+              </p>
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Newsroom</a>
+              </p >
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Ethics </a>
+              </p >
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Samsung Design</a>
+              </p >
+              <p class="text-sm py-[7px] px-6">
+                  <a href="#!" class="hover:text-blue-800 hover:underline">Samsung Innovation Campus</a>
+              </p>
+
+
+          </div>
+     
+      </div>
+      
+  
+</section>
+
+
+
+<!-- copyrights -->
+<div class=" border-b-2 py-5 ">
+  <p class="text-[11.8px] pt-[17px] pr-[12px] pb-[15px] pl-[24px]">Copyright© 1995-2022 Samsung. All rights reserved.</p>
+ 
+</div>
+
+<!-- Left footer links---------->
+
+<section class="flex flex-row justify-between items-center max-w-[1440px] h-[64px] pl-6">
+  <!-- Left -->
+ 
+  <div class="">
+      <a href="" class="text-[11px] pr-6 font-bold">Pakistan/English</a>
+     <a href=""  class="text-xs px-3">Accessibility Help</a>
+     <a href=""  class="text-xs px-3">Privacy</a>
+     <a href=""  class="text-xs px-3">Legal</a>
+     <a href=""  class="text-xs px-3">Sitemap</a>
+     <a href=""  class="text-xs px-3">Terms and conditions of Sale</a>
+  </div>
+ 
+ 
+<!-- Right footer Social media links -->
+  <div class="">
+      <a href="javascript:void(0)" class=" text-reset">
+        <span  class="text-xs pr-3">  Stay in the Loop?</span>
+      </a>
+
+      <a href="" class="">
+          <i class="text-2xl mx-2 fab fa-facebook-f"></i>
+      </a>
+      
+      <a href="" class="me-2 text-reset">
+          <i class="text-2xl mx-2 fab fa-twitter"></i>
+      </a>
+      
+      <a href="" class="me-2 text-reset">
+          <i class=" text-2xl mx-2 fab fa-instagram"></i>
+      </a>
+      
+      <a href="" class="me-2 text-reset">
+          <i class=" text-2xl  mx-2 fab fa-youtube"></i>
+      </a>
+      
+      <a href="" class="me-2 text-reset">
+          <i class=" text-2xl  mx-2 fab fa-whatsapp"></i>
+      </a>
+  </div>
+  <!-- Right -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+</body>
+
+</html>
